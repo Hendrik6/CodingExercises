@@ -16,7 +16,7 @@ func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 		return float64(nums1[len(nums1)/2])
 	}
 
+	//If it's even
 	float1, float2 := (float64(nums1[(len(nums1)/2)-1])), (float64(nums1[(len(nums1) / 2)]))
-
 	return (float1 + float2) / 2
 }
